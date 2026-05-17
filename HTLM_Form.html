@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms </title>
+   
+</head>
+<body>
+
+    <h1> HTML Forms </h1>
+
+    <h2> Sign In Form </h2>
+
+    <form >
+
+        <label for="ffirstname">First Name :</label>
+        <input type="ffirstname" placeholder="First Name">
+
+        <label for="flastname">Last Name :</label>
+        <input type="flastname" placeholder="Last Name"><br>
+        <br>
+
+        <label for="femail">Email :</label>
+        <input type="Email" placeholder="Enter your Email"><br>
+        <br>
+        
+        <label for="fpassword">Password :</label>
+        <input type="Password" placeholder="Enter your Password" id="fpassword" name="fpassword"><br> 
+        <br>
+
+        <input type="checkbox" id="checkbox_login">
+        <label for="checkboc_login"> Remember Me </label> <br>
+        <br>
+
+        <input type="submit" value="Sign In" ><br>
+        <br>
+        <hr>
+
+      </form>
+
+    <h2> Sign Up Form </h2>
+
+    <form>
+
+        <label for="fullname">Full Name :</label>
+        <input type="fullname" placeholder="Enter your full name"><br>
+        <br>
+
+        <label for="femail">Email :</label>
+        <input type="Email" placeholder="Enter your Email"><br>
+        <br>
+
+        <label for="fpassword">Password :</label>
+        <input type="Password" placeholder="Enter your Password" id="fpassword" name="fpassword"><br> 
+        <br>
+
+        <label for="fconfirmpassword">Confirm Password :</label>
+        <input type="fconfirmpassword" placeholder="Confirm your Password" id="fconfirmpassword" name="fconfirmpassword"><br> 
+        <br>
+
+        <label for="phonenumber">Phone Number :</label>
+        <input type="phonenumber" placeholder="Enter your Phone Number" id="phonenumber" name="phonenumber"><br> 
+        <br>
+
+        <label for="all_gender">Gender :</label>
+
+        <input type="radio" id="male" name="all_gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="all_gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="all_gender">
+        <label for="other">Other</label><br>
+        <br>
+
+        <input type="submit" value="Sign Up"><br>
+        <br>
+        <hr>
+
+    </form>
+
+
+    <h2>Contact Form</h2>
+
+    <form>
+        
+        <label for="name"> Name :</label>
+        <input type="name" placeholder="Enter your name"><br>
+        <br>
+
+        <label for="femail">Email :</label>
+        <input type="Email" placeholder="Enter your Email"><br>
+        <br>
+        
+        <div class="flex items-center gap-3">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              placeholder="Enter your Email"
+              class="border p-2 w-72 h-24"
+            ></textarea>
+          
+        </div> 
+
+
+            <br>
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+
+
+            
+
+    </form>
+</body>
